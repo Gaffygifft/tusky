@@ -24,6 +24,22 @@ class Quadratic:
     self.y2 = (self.x2)**2 * self.a + (self.x2) * self * b + self.c
     
     return self.y1 , self.y2
+  
+  def ask_question(self):
+    
+     while True:
+        self.quest = int(input("Choose 1 or 2"))
+        if self.quest == 1:
+          print('you want to solve for x1 and x2')
+          print('x1 = ',self.x1, 'x2 =', self.x2)
+          
+        elif self.quest == 2:
+          print('You want to solve for the total value of y')
+          printprint('y1 = ',self.y1, 'y2 =', self.y2)
+          
+        else:
+          print('we can only solve for x and y')
+        
     
     
 formular = Quadratic()
