@@ -19,11 +19,18 @@ class Quadratic:
     
     rerurn self.x1 , self.x2
     
+  def total_y(self):
+    self.y1 = (self.x1)**2 * self.a + (self.x1) * self * b + self.c
+    self.y2 = (self.x2)**2 * self.a + (self.x2) * self * b + self.c
+    
+    return self.y1 , self.y2
+    
     
 formular = Quadratic()
 
 print(formular.insert_values())
 print(formular.calc_xs())
+print(formular.total_y())
 
 
     
