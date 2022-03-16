@@ -33,4 +33,6 @@ print(formular.calc_xs())
 print(formular.total_y())
 
 
+print('thank you')
+
     
